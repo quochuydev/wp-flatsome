@@ -1,4 +1,4 @@
-**how to develop local:**
+# How to develop local
 
 - clone source code: `git clone https://github.com/quochuydev/wp-flatsome.git`
 
