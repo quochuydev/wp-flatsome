@@ -14,3 +14,9 @@ username: admin
 password: Rx8u\*YVcJ1wDdJ(R1G
 email: h-admin-mail@yopmail.com
 ```
+
+# Export dump
+
+```
+docker exec mysql sh -c 'exec mysqldump --all-databases -uroot -p"password"' > ./wp-data/data-dump.sql
+```
