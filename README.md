@@ -18,5 +18,5 @@ email: h-admin-mail@yopmail.com
 # Export dump
 
 ```
-docker exec mysql sh -c 'exec mysqldump --all-databases -uroot -p"password"' > ./wp-data/data-dump.sql
+docker exec mysql sh -c 'exec mysqldump --all-databases -uroot -p"password"' > ./wp-data/data-v2.sql
 ```
