@@ -16,13 +16,23 @@ password: Rx8u\*YVcJ1wDdJ(R1G
 email: h-admin-mail@yopmail.com
 ```
 
-# Export dump
+# Dump data
+
+- option 1:
 
 ```
 docker exec mysql sh -c 'exec mysqldump --all-databases -uroot -p"password"' > ./wp-data/data-v3-use-flatsome.sql
 ```
 
-# Bug
+- option 2:
+
+```
+chmod +x dump.sh
+
+./dump.sh
+```
+
+# Notes
 
 ```
 wp-app/wp-content/themes/flatsome/inc/woocommerce/structure-wc-category-page.php:17
