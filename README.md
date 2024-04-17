@@ -12,7 +12,7 @@
 http://localhost:81/wp-admin/admin.php
 name: h-shop
 username: admin
-password: Rx8u\*YVcJ1wDdJ(R1G
+password: Rx8u*YVcJ1wDdJ(R1G
 email: h-admin-mail@yopmail.com
 ```
 
