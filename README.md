@@ -21,13 +21,13 @@ email: h-admin-mail@yopmail.com
 - option 1:
 
 ```
-docker exec mysql sh -c 'exec mysqldump --all-databases -uroot -p"password"' > ./wp-data/data-v3-use-flatsome.sql
+docker exec mysql sh -c 'exec mysqldump --all-databases -uroot -p"password"' > ./wp-data/data-v4-wine.sql
 ```
 
 - option 2:
 
 ```
-chmod +x dump.sh
+chmod +x dump.bat
 
 ./dump.sh
 ```
