@@ -22,6 +22,8 @@ email: h-admin-mail@yopmail.com
 
 ```
 docker exec mysql sh -c 'exec mysqldump --all-databases -uroot -p"password"' > ./wp-data/data-v3-use-flatsome.sql
+
+docker exec mysql sh -c 'exec mysqldump --all-databases --set-gtid-purged=OFF -uroot -p"password"' > ./wp-data/data-v5
 ```
 
 - option 2:
@@ -38,4 +40,7 @@ chmod +x dump.sh
 wp-app/wp-content/themes/flatsome/inc/woocommerce/structure-wc-category-page.php:17
 
 flatsome_wup_purchase_code
+
+https://github.com/nezhar/wordpress-docker-compose/blob/master/README.md
+
 ```
