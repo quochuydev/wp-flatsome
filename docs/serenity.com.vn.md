@@ -1,27 +1,21 @@
-```
-define('WP_HOME','https://serenity.com.vn');
-define('WP_SITEURL','https://serenity.com.vn');
-define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'serenity_wordpress') );
-define( 'DB_USER', getenv_docker('WORDPRESS_DB_USER', 'serenity_root') );
-define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', '') );
-define( 'DB_HOST', getenv_docker('WORDPRESS_DB_HOST', 'localhost') );
-```
-
-```
 tinohost
 
 MariaDB 10.6.17
+
 PHP 5.6 - 8.3
 
 remove some code commanded
 
 utf8mb4_0900_ai_ci -> utf8mb4_general_ci
 
-Collation
+```
+Operation - Collation
 utf8mb4_general_ci
 Change all tables collations
 Change all tables columns collations
+```
 
+```
 --
 -- Dumping data for table `innodb_index_stats`
 --
